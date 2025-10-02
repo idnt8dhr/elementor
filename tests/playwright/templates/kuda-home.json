@@ -1,0 +1,1189 @@
+{
+  "version": "0.4",
+  "title": "kuda-home",
+  "type": "wp-page",
+  "content": [
+    {
+      "id": "kuda_hero_section",
+      "settings": {
+        "content_width": "boxed",
+        "gap": {
+          "unit": "px",
+          "size": 40,
+          "sizes": []
+        },
+        "flex_direction": "row",
+        "align_items": "center",
+        "background_background": "classic",
+        "background_color": "#40196D",
+        "padding": {
+          "unit": "px",
+          "top": "120",
+          "right": "60",
+          "bottom": "120",
+          "left": "60",
+          "isLinked": ""
+        }
+      },
+      "elements": [
+        {
+          "id": "kuda_hero_left",
+          "settings": {
+            "width": {
+              "unit": "%",
+              "size": 55,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "gap": {
+              "unit": "px",
+              "size": 20,
+              "sizes": []
+            },
+            "align_items": "flex-start"
+          },
+          "elements": [
+            {
+              "id": "kuda_hero_heading",
+              "settings": {
+                "title": "The money app for Africans",
+                "header_size": "h1",
+                "align": "left",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 52,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": "1.2",
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "heading",
+              "elType": "widget"
+            },
+            {
+              "id": "kuda_hero_subheading",
+              "settings": {
+                "editor": "<p>Join millions who bank, save, and pay with Kuda. Track your spending, put money away automatically, and get more out of every transaction.</p>",
+                "text_color": "#E8E9FF",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": "1.6",
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "text-editor",
+              "elType": "widget"
+            },
+            {
+              "id": "kuda_hero_cta",
+              "settings": {
+                "text": "Open an account",
+                "align": "left",
+                "size": "lg",
+                "button_text_color": "#FFFFFF",
+                "background_color": "#21D17C",
+                "padding": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "38",
+                  "bottom": "18",
+                  "left": "38",
+                  "isLinked": ""
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "40",
+                  "right": "40",
+                  "bottom": "40",
+                  "left": "40",
+                  "isLinked": ""
+                }
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "button",
+              "elType": "widget"
+            },
+            {
+              "id": "kuda_store_row",
+              "settings": {
+                "flex_direction": "row",
+                "gap": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                },
+                "justify_content": "flex-start",
+                "margin": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": ""
+                }
+              },
+              "elements": [
+                {
+                  "id": "kuda_store_ios",
+                  "settings": {
+                    "text": "Download on the App Store",
+                    "align": "left",
+                    "size": "sm",
+                    "selected_icon": {
+                      "value": "fab fa-apple",
+                      "library": "fa-brands"
+                    },
+                    "icon_align": "left",
+                    "icon_indent": {
+                      "unit": "px",
+                      "size": 8,
+                      "sizes": []
+                    },
+                    "background_color": "#2B184E",
+                    "button_text_color": "#FFFFFF",
+                    "padding": {
+                      "unit": "px",
+                      "top": "12",
+                      "right": "22",
+                      "bottom": "12",
+                      "left": "22",
+                      "isLinked": ""
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "30",
+                      "right": "30",
+                      "bottom": "30",
+                      "left": "30",
+                      "isLinked": ""
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "button",
+                  "elType": "widget"
+                },
+                {
+                  "id": "kuda_store_android",
+                  "settings": {
+                    "text": "Get it on Google Play",
+                    "align": "left",
+                    "size": "sm",
+                    "selected_icon": {
+                      "value": "fab fa-google-play",
+                      "library": "fa-brands"
+                    },
+                    "icon_align": "left",
+                    "icon_indent": {
+                      "unit": "px",
+                      "size": 8,
+                      "sizes": []
+                    },
+                    "background_color": "#FFFFFF",
+                    "button_text_color": "#2B184E",
+                    "padding": {
+                      "unit": "px",
+                      "top": "12",
+                      "right": "22",
+                      "bottom": "12",
+                      "left": "22",
+                      "isLinked": ""
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "30",
+                      "right": "30",
+                      "bottom": "30",
+                      "left": "30",
+                      "isLinked": ""
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "button",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        },
+        {
+          "id": "kuda_hero_right",
+          "settings": {
+            "width": {
+              "unit": "%",
+              "size": 45,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "align_items": "flex-end",
+            "justify_content": "flex-end"
+          },
+          "elements": [
+            {
+              "id": "kuda_hero_image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=800&q=80",
+                  "id": "",
+                  "size": "",
+                  "alt": "People banking with mobile app",
+                  "source": "external"
+                },
+                "align": "right",
+                "width": {
+                  "unit": "%",
+                  "size": 85,
+                  "sizes": []
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "40",
+                  "right": "40",
+                  "bottom": "40",
+                  "left": "40",
+                  "isLinked": ""
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": "0",
+                  "vertical": "25",
+                  "blur": "80",
+                  "spread": "-20",
+                  "color": "rgba(10,16,52,0.45)"
+                }
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "image",
+              "elType": "widget"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    },
+    {
+      "id": "kuda_trust_row",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "gap": {
+          "unit": "px",
+          "size": 20,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "20",
+          "bottom": "60",
+          "left": "20",
+          "isLinked": ""
+        },
+        "background_background": "classic",
+        "background_color": "#F2F4FF"
+      },
+      "elements": [
+        {
+          "id": "kuda_trust_heading",
+          "settings": {
+            "title": "Trusted by over 6 million customers",
+            "align": "center",
+            "title_color": "#2B184E",
+            "typography_typography": "custom",
+            "typography_font_family": "Plus Jakarta Sans",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 24,
+              "sizes": []
+            },
+            "typography_font_weight": "600"
+          },
+          "elements": [],
+          "isInner": false,
+          "widgetType": "heading",
+          "elType": "widget"
+        },
+        {
+          "id": "kuda_trust_text",
+          "settings": {
+            "align": "center",
+            "editor": "<p>As seen in TechCrunch, Bloomberg, BBC, and more.</p>",
+            "text_color": "#4D4F7A",
+            "typography_typography": "custom",
+            "typography_font_family": "Plus Jakarta Sans",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 16,
+              "sizes": []
+            },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": "1.2",
+              "sizes": []
+            }
+          },
+          "elements": [],
+          "isInner": false,
+          "widgetType": "text-editor",
+          "elType": "widget"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    },
+    {
+      "id": "kuda_features_section",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "gap": {
+          "unit": "px",
+          "size": 32,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "40",
+          "bottom": "80",
+          "left": "40",
+          "isLinked": ""
+        }
+      },
+      "elements": [
+        {
+          "id": "kuda_features_heading",
+          "settings": {
+            "title": "Everything you need for everyday money",
+            "align": "center",
+            "title_color": "#2B184E",
+            "header_size": "h2",
+            "typography_typography": "custom",
+            "typography_font_family": "Plus Jakarta Sans",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 36,
+              "sizes": []
+            },
+            "typography_font_weight": "700"
+          },
+          "elements": [],
+          "isInner": false,
+          "widgetType": "heading",
+          "elType": "widget"
+        },
+        {
+          "id": "kuda_features_text",
+          "settings": {
+            "align": "center",
+            "editor": "<p>Kuda gives you the tools to spend responsibly, save automatically, and grow your money without hidden fees.</p>",
+            "text_color": "#4D4F7A",
+            "typography_typography": "custom",
+            "typography_font_family": "Plus Jakarta Sans",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 18,
+              "sizes": []
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": "1.6",
+              "sizes": []
+            }
+          },
+          "elements": [],
+          "isInner": false,
+          "widgetType": "text-editor",
+          "elType": "widget"
+        },
+        {
+          "id": "kuda_features_row",
+          "settings": {
+            "flex_direction": "row",
+            "gap": {
+              "unit": "px",
+              "size": 24,
+              "sizes": []
+            },
+            "justify_content": "space-between"
+          },
+          "elements": [
+            {
+              "id": "kuda_feature_1",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 33.33,
+                  "sizes": []
+                },
+                "flex_direction": "column",
+                "gap": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "padding": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "32",
+                  "bottom": "32",
+                  "left": "32",
+                  "isLinked": ""
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "28",
+                  "bottom": "28",
+                  "left": "28",
+                  "isLinked": ""
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": "0",
+                  "vertical": "18",
+                  "blur": "60",
+                  "spread": "-24",
+                  "color": "rgba(19,24,63,0.12)"
+                }
+              },
+              "elements": [
+                {
+                  "id": "kuda_feature_image_1",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=600&q=80",
+                      "id": "",
+                      "size": "",
+                      "alt": "Spend smarter",
+                      "source": "external"
+                    },
+                    "align": "left",
+                    "width": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": ""
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "image",
+                  "elType": "widget"
+                },
+                {
+                  "id": "kuda_feature_heading_1",
+                  "settings": {
+                    "title": "Spend smarter",
+                    "align": "left",
+                    "title_color": "#2B184E",
+                    "header_size": "h3",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "600"
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "heading",
+                  "elType": "widget"
+                },
+                {
+                  "id": "kuda_feature_desc_1",
+                  "settings": {
+                    "align": "left",
+                    "editor": "<p>Use the Kuda Visa card anywhere and get instant notifications for every payment.</p>",
+                    "text_color": "#4D4F7A",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.7",
+                      "sizes": []
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "text-editor",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            },
+            {
+              "id": "kuda_feature_2",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 33.33,
+                  "sizes": []
+                },
+                "flex_direction": "column",
+                "gap": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "padding": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "32",
+                  "bottom": "32",
+                  "left": "32",
+                  "isLinked": ""
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "28",
+                  "bottom": "28",
+                  "left": "28",
+                  "isLinked": ""
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": "0",
+                  "vertical": "18",
+                  "blur": "60",
+                  "spread": "-24",
+                  "color": "rgba(19,24,63,0.12)"
+                }
+              },
+              "elements": [
+                {
+                  "id": "kuda_feature_image_2",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=600&q=80",
+                      "id": "",
+                      "size": "",
+                      "alt": "Save automatically",
+                      "source": "external"
+                    },
+                    "align": "left",
+                    "width": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": ""
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "image",
+                  "elType": "widget"
+                },
+                {
+                  "id": "kuda_feature_heading_2",
+                  "settings": {
+                    "title": "Save automatically",
+                    "align": "left",
+                    "title_color": "#2B184E",
+                    "header_size": "h3",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "600"
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "heading",
+                  "elType": "widget"
+                },
+                {
+                  "id": "kuda_feature_desc_2",
+                  "settings": {
+                    "align": "left",
+                    "editor": "<p>Set goals, lock funds, and enjoy up to 15% annual interest on your savings.</p>",
+                    "text_color": "#4D4F7A",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.7",
+                      "sizes": []
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "text-editor",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            },
+            {
+              "id": "kuda_feature_3",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 33.33,
+                  "sizes": []
+                },
+                "flex_direction": "column",
+                "gap": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "padding": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "32",
+                  "bottom": "32",
+                  "left": "32",
+                  "isLinked": ""
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "28",
+                  "bottom": "28",
+                  "left": "28",
+                  "isLinked": ""
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": "0",
+                  "vertical": "18",
+                  "blur": "60",
+                  "spread": "-24",
+                  "color": "rgba(19,24,63,0.12)"
+                }
+              },
+              "elements": [
+                {
+                  "id": "kuda_feature_image_3",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=600&q=80",
+                      "id": "",
+                      "size": "",
+                      "alt": "Borrow responsibly",
+                      "source": "external"
+                    },
+                    "align": "left",
+                    "width": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": ""
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "image",
+                  "elType": "widget"
+                },
+                {
+                  "id": "kuda_feature_heading_3",
+                  "settings": {
+                    "title": "Borrow responsibly",
+                    "align": "left",
+                    "title_color": "#2B184E",
+                    "header_size": "h3",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "600"
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "heading",
+                  "elType": "widget"
+                },
+                {
+                  "id": "kuda_feature_desc_3",
+                  "settings": {
+                    "align": "left",
+                    "editor": "<p>Access small loans that grow with you when you use Kuda often.</p>",
+                    "text_color": "#4D4F7A",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.7",
+                      "sizes": []
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "text-editor",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    },
+    {
+      "id": "kuda_highlight_section",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "row",
+        "align_items": "center",
+        "gap": {
+          "unit": "px",
+          "size": 40,
+          "sizes": []
+        },
+        "background_background": "classic",
+        "background_color": "#EDF0FF",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "60",
+          "bottom": "100",
+          "left": "60",
+          "isLinked": ""
+        },
+        "border_radius": {
+          "unit": "px",
+          "top": "32",
+          "right": "32",
+          "bottom": "32",
+          "left": "32",
+          "isLinked": ""
+        }
+      },
+      "elements": [
+        {
+          "id": "kuda_highlight_copy",
+          "settings": {
+            "width": {
+              "unit": "%",
+              "size": 50,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "gap": {
+              "unit": "px",
+              "size": 20,
+              "sizes": []
+            }
+          },
+          "elements": [
+            {
+              "id": "kuda_highlight_heading",
+              "settings": {
+                "title": "Instant transfers, real support",
+                "align": "left",
+                "title_color": "#2B184E",
+                "header_size": "h2",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 32,
+                  "sizes": []
+                },
+                "typography_font_weight": "700"
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "heading",
+              "elType": "widget"
+            },
+            {
+              "id": "kuda_highlight_text",
+              "settings": {
+                "align": "left",
+                "editor": "<p>Send money to any bank in Nigeria for free, enjoy 24/7 in-app chat, and get a debit card delivered to your doorstep.</p>",
+                "text_color": "#4D4F7A",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": "1.7",
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "text-editor",
+              "elType": "widget"
+            },
+            {
+              "id": "kuda_highlight_list",
+              "settings": {
+                "icon_list": [
+                  {
+                    "_id": "kuda_list_item_1",
+                    "text": "Zero card maintenance fees",
+                    "selected_icon": {
+                      "value": "fas fa-check",
+                      "library": "fa-solid"
+                    }
+                  },
+                  {
+                    "_id": "kuda_list_item_2",
+                    "text": "50 free transfers every month",
+                    "selected_icon": {
+                      "value": "fas fa-check",
+                      "library": "fa-solid"
+                    }
+                  },
+                  {
+                    "_id": "kuda_list_item_3",
+                    "text": "Budgeting tools that keep you in control",
+                    "selected_icon": {
+                      "value": "fas fa-check",
+                      "library": "fa-solid"
+                    }
+                  }
+                ],
+                "icon_color": "#21D17C",
+                "text_color": "#2B184E",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15,
+                  "sizes": []
+                },
+                "icon_align": "left",
+                "space_between": {
+                  "unit": "px",
+                  "size": 12,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "icon-list",
+              "elType": "widget"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        },
+        {
+          "id": "kuda_highlight_visual",
+          "settings": {
+            "width": {
+              "unit": "%",
+              "size": 50,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "align_items": "flex-end"
+          },
+          "elements": [
+            {
+              "id": "kuda_highlight_image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=800&q=80",
+                  "id": "",
+                  "size": "",
+                  "alt": "Kuda app cards",
+                  "source": "external"
+                },
+                "align": "right",
+                "width": {
+                  "unit": "%",
+                  "size": 90,
+                  "sizes": []
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "28",
+                  "bottom": "28",
+                  "left": "28",
+                  "isLinked": ""
+                }
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "image",
+              "elType": "widget"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    },
+    {
+      "id": "kuda_story_section",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "gap": {
+          "unit": "px",
+          "size": 28,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "90",
+          "right": "40",
+          "bottom": "90",
+          "left": "40",
+          "isLinked": ""
+        }
+      },
+      "elements": [
+        {
+          "id": "kuda_story_heading",
+          "settings": {
+            "title": "Loved by a vibrant community",
+            "align": "center",
+            "title_color": "#2B184E",
+            "header_size": "h2",
+            "typography_typography": "custom",
+            "typography_font_family": "Plus Jakarta Sans",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 34,
+              "sizes": []
+            },
+            "typography_font_weight": "700"
+          },
+          "elements": [],
+          "isInner": false,
+          "widgetType": "heading",
+          "elType": "widget"
+        },
+        {
+          "id": "kuda_story_text",
+          "settings": {
+            "align": "center",
+            "editor": "<p>\u201cKuda helps me save without thinking about it and makes paying my bills painless.\u201d \u2013 Aisha, Lagos</p>",
+            "text_color": "#4D4F7A",
+            "typography_typography": "custom",
+            "typography_font_family": "Plus Jakarta Sans",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 18,
+              "sizes": []
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": "1.7",
+              "sizes": []
+            }
+          },
+          "elements": [],
+          "isInner": false,
+          "widgetType": "text-editor",
+          "elType": "widget"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    },
+    {
+      "id": "kuda_cta_section",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "gap": {
+          "unit": "px",
+          "size": 24,
+          "sizes": []
+        },
+        "align_items": "center",
+        "background_background": "classic",
+        "background_color": "#40196D",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "40",
+          "bottom": "100",
+          "left": "40",
+          "isLinked": ""
+        },
+        "border_radius": {
+          "unit": "px",
+          "top": "40",
+          "right": "40",
+          "bottom": "40",
+          "left": "40",
+          "isLinked": ""
+        }
+      },
+      "elements": [
+        {
+          "id": "kuda_cta_heading",
+          "settings": {
+            "title": "Ready to make better money moves?",
+            "align": "center",
+            "title_color": "#FFFFFF",
+            "header_size": "h2",
+            "typography_typography": "custom",
+            "typography_font_family": "Plus Jakarta Sans",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 36,
+              "sizes": []
+            },
+            "typography_font_weight": "700"
+          },
+          "elements": [],
+          "isInner": false,
+          "widgetType": "heading",
+          "elType": "widget"
+        },
+        {
+          "id": "kuda_cta_text",
+          "settings": {
+            "align": "center",
+            "editor": "<p>Download the Kuda app to open a free account in minutes.</p>",
+            "text_color": "#E8E9FF",
+            "typography_typography": "custom",
+            "typography_font_family": "Plus Jakarta Sans",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 18,
+              "sizes": []
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": "1.6",
+              "sizes": []
+            }
+          },
+          "elements": [],
+          "isInner": false,
+          "widgetType": "text-editor",
+          "elType": "widget"
+        },
+        {
+          "id": "kuda_cta_button",
+          "settings": {
+            "text": "Join Kuda",
+            "align": "center",
+            "size": "lg",
+            "button_text_color": "#2B184E",
+            "background_color": "#FFFFFF",
+            "border_radius": {
+              "unit": "px",
+              "top": "40",
+              "right": "40",
+              "bottom": "40",
+              "left": "40",
+              "isLinked": ""
+            },
+            "padding": {
+              "unit": "px",
+              "top": "18",
+              "right": "48",
+              "bottom": "18",
+              "left": "48",
+              "isLinked": ""
+            }
+          },
+          "elements": [],
+          "isInner": false,
+          "widgetType": "button",
+          "elType": "widget"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    }
+  ],
+  "page_settings": []
+}
